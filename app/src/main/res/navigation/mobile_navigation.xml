@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mi_tienda">
+
+    <fragment
+        android:id="@+id/nav_mi_tienda"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.tn_frgmenumitienda"
+        android:label="@string/menu_mitienda"
+        tools:layout="@layout/fragment_tn_frgmenumitienda" />
+
+    <fragment
+        android:id="@+id/nav_mis_productos"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_productos.ga_frgmenumisproductos"
+        android:label="@string/menu_misproductos"
+        tools:layout="@layout/fragment_ga_frgmenumisproductos" />
+
+    <fragment
+        android:id="@+id/nav_mis_ordenes"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.od_frgmenumisordenes"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_od_frgmenumisordenes" />
+
+    <fragment
+        android:id="@+id/nav_mi_publicidad"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_publicidad.pb_frgmenupublicidad"
+        android:label="@string/menu_mipublicidad"
+        tools:layout="@layout/fragment_pb_frgmenupublicidad" />
+
+    <fragment
+        android:id="@+id/nav_mi_aprendizaje"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgmaterialesdeaprendizaje"
+        android:label="@string/menu_miaprendizaje"
+        tools:layout="@layout/fragment_ap_frgmaterialesdeaprendizaje" />
+
+    <fragment
+        android:id="@+id/nav_soporte"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Soporte.sp_frgmenusoporte"
+        android:label="@string/menu_soporte"
+        tools:layout="@layout/fragment_sp_frgmenusoporte" />
+</navigation>

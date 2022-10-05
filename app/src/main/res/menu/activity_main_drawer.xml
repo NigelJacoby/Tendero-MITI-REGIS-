@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mi_tienda"
+            android:icon="@drawable/ic_prueba"
+            android:title="@string/menu_mitienda" />
+        <item
+            android:id="@+id/nav_mis_productos"
+            android:icon="@drawable/ic_prueba"
+            android:title="@string/menu_misproductos" />
+        <item
+            android:id="@+id/nav_mis_ordenes"
+            android:icon="@drawable/ic_prueba"
+            android:title="@string/menu_misordenes" />
+        <item
+            android:id="@+id/nav_mi_publicidad"
+            android:icon="@drawable/ic_prueba"
+            android:title="@string/menu_mipublicidad" />
+        <item
+            android:id="@+id/nav_mi_aprendizaje"
+            android:icon="@drawable/ic_prueba"
+            android:title="@string/menu_miaprendizaje" />
+        <item
+            android:id="@+id/nav_soporte"
+            android:icon="@drawable/ic_prueba"
+            android:title="@string/menu_soporte" />
+    </group>
+</menu>
