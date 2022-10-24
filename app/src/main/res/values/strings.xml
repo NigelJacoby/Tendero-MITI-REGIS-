@@ -7,11 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-
-    <!-- OPCIONES DEL MENU -->
+    <!--        OPCIONES DEL MENU                  -->
 
     <string name="menu_mitienda">MI TIENDA</string>
     <string name="menu_misproductos">MIS PRODUCTOS</string>
@@ -19,6 +15,40 @@
     <string name="menu_mipublicidad">MI PUBLICIDAD</string>
     <string name="menu_miaprendizaje">MI APRENDIZAJE</string>
     <string name="menu_soporte">SOPORTE</string>
+
+    <!--        Modulo inicio de sesion(is)        -->
+
+
+
+    <!--        Modulo Aprendizaje(ap)             -->
+
+
+
+    <!--        Modulo Publicidad(pub)             -->
+
+
+
+    <!--        Modulo Registro tienda(rt)         -->
+
+
+
+    <!--        Modulo Ordenes(mio)                -->
+
+
+
+    <!--        Modulo Almacen(ga)                 -->
+
+
+
+    <!--        Modulo Soporte(so)                 -->
+
+
+
+    <!--        Modulo Tienda(mit)                 -->
+
+
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

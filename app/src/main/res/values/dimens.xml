@@ -23,4 +23,5 @@
     <dimen name="mdl_width">343dp</dimen>
     <dimen name="input_padding">10dp</dimen>
     <dimen name="input_marginRight">10dp</dimen>
+
 </resources>

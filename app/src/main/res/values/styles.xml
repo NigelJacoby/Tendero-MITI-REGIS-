@@ -16,4 +16,38 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+
+    <!--        Modulo inicio de sesion(is)        -->
+
+
+
+    <!--        Modulo Aprendizaje(ap)             -->
+
+
+
+    <!--        Modulo Publicidad(pub)             -->
+
+
+
+    <!--        Modulo Registro tienda(rt)         -->
+
+
+
+    <!--        Modulo Ordenes(mio)                -->
+
+
+
+    <!--        Modulo Almacen(ga)                 -->
+
+
+
+    <!--        Modulo Soporte(so)                 -->
+
+
+
+    <!--        Modulo Tienda(mit)                 -->
+
+
+
+
 </resources>
