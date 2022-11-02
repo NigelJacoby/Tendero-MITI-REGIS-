@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.mit_frgRegistrarProducto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_type05_paddingTop"
+        android:text="@string/mit_varstrregistrarproducto1"
+        style="@style/txtstyle_h2">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="340dp"
+            android:layout_height="35dp"
+            style="@style/txtfld"
+            android:text="@string/mit_varstrregistrarproducto2"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <Button
+            android:layout_width="45dp"
+            android:background="#00000000"
+            android:layout_height="35dp"
+            style="@style/btnbuscador"
+
+        />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgVw_tn03imgnlg"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:background="#00000000"
+        android:drawableBottom="@drawable/ic_icon_agregarimg"
+        />
+
+    <TextView
+        android:id="@+id/txt_tn03txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/mit_varstrregistrarproducto3"
+        style="@style/txtstyle_h3"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mit_varstrregistrarproducto5"
+        android:layout_marginTop="10dp"
+        style="@style/txtstyle_h2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mit_varstrregistrarproducto6"
+        style="@style/txtstyle_h3"
+        android:layout_marginTop="20dp"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_tn03dscrp"
+        android:layout_width="375dp"
+        android:layout_height="35dp"
+        style="@style/txtfldinfogeneral"
+
+        >
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mit_varstrregistrarproducto7"
+        style="@style/txtstyle_h3"
+        android:layout_marginTop="5dp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_tn03ctgr"
+        android:layout_width="375dp"
+        android:layout_height="35dp"
+        style="@style/txtfldinfogeneral"
+        />
+
+    <TextView
+        android:id="@+id/txt_tn03cstprdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mit_varstrregistrarproducto8"
+        style="@style/txtstyle_h3"
+        android:layout_marginTop="5dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_tn03prdt"
+        android:layout_width="375dp"
+        android:layout_height="35dp"
+        style="@style/txtfldinfogeneral"
+        android:text="@string/str_txt_simboloprecio">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:id="@+id/txt_tn03prcvnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mit_varstrregistrarproducto9"
+        style="@style/txtstyle_h3"
+        android:layout_marginTop="5dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_tn03prcvnt"
+        android:layout_width="375dp"
+        android:layout_height="35dp"
+        style="@style/txtfldinfogeneral"
+        android:text="@string/str_txt_simboloprecio"
+        >
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <Button
+        android:id="@+id/btn_tn03agrgprdt"
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        style="@style/btncyan"
+        android:text="@string/mit_varstrregistrarproducto10"/>
+</LinearLayout>
+</ScrollView>

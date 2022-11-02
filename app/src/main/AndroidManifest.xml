@@ -9,16 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".tendero.Inicio_sesion.MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="mx.com.encargalo.tendero.Inicio_sesion.activity_is_actiniciarsesionprincipal" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="mx.com.encargalo.tendero.Inicio_sesion.activity_is_actcrearunacuenta" />
+        <activity android:name="mx.com.encargalo.tendero.Inicio_sesion.activity_is_actverificacioncodigo" />
+        <activity
+            android:name=".tendero.Inicio_sesion.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
     </application>
 
 </manifest>

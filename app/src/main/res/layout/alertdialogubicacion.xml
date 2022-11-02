@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".tendero.Inicio_sesion.MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/txtstyle_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/mit_varstralertdialog1"
+        app:layout_constraintBottom_toTopOf="@+id/rt_alertdialogaceptar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rt_alertdialogaceptar"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_stylecmbrtnd"
+        android:text="@string/mit_varstralertdialog2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rt_alertdialogcancelar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/rt_alertdialogcancelar"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/mit_varstralertdialog3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rt_alertdialogaceptar"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/btncancelar"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

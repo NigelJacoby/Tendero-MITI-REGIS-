@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tendero.Inicio_sesion.ui.Soporte.sp_Detallepreguntas">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_so_02_3_PregFrecuentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/menu_soporte_Preguntas_Frecuentes_preg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/menu_soporte_Preguntas_Frecuentes_preg1" />
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="630dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_so_02_3_Pregunta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_soporte_Preguntas_Frecuentes_preg1_titulo"
+            tools:text="@string/menu_soporte_Preguntas_Frecuentes_preg1_titulo" />
+
+        <TextView
+            android:id="@+id/txt_so_02_3_preg1_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_soporte_Preguntas_Frecuentes_preg1_stitulo"
+            tools:text="@string/menu_soporte_Preguntas_Frecuentes_preg1_stitulo" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txt_so_02_3_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_soporte_Preguntas_Frecuentes_preg1_detalle"
+            tools:text="@string/menu_soporte_Preguntas_Frecuentes_preg1_detalle" />
+
+        <VideoView
+            android:id="@+id/View_so_02_3_preg1"
+            android:layout_width="match_parent"
+            android:layout_height="264dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

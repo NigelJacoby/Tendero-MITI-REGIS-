@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan_400"
+    android:orientation="vertical"
+    tools:context=".tendero.Inicio_sesion.ui.Mi_publicidad.pub_frgcodigopago">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/txtstyle_h1"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pub_varstranunciopagado1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/pub_aptxtcodgenerado"
+                style="@style/txtstyle_h1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="{Código generado}" />
+
+            <TextView
+                style="@style/txtstyle_h1"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pub_varstranunciopagado2"
+                android:textAlignment="center" />
+
+            <TextView
+                style="@style/txtstyle_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/str_home" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/pub_pabtnvolverpricipio"
+        android:layout_width="@dimen/btn_type03_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/containedbutton_white"
+        android:text="@string/str_btn_volver_inicio"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

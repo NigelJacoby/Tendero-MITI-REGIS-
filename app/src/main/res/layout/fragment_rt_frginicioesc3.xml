@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.rt_frginicioesc3">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/rt_varstrinicioesc31"
+        android:textSize="@dimen/txt_encabezado"
+        android:textColor="@color/txtEncabezado"
+        />
+
+
+    <TextView
+        android:id="@+id/rt_NTtxtNombreTienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/txt_encabezado"
+        android:textColor="@color/txtNomTnd"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/rt_varstrinicioesc32"
+        android:textSize="@dimen/txt_encabezado"
+        android:textColor="@color/txtEncabezado"
+        />
+
+    <ImageView
+        android:id="@+id/rt_LEimgVwLogoEncargalo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+</LinearLayout>

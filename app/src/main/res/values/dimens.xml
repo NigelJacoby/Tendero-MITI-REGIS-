@@ -1,13 +1,17 @@
 <resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin">16dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
-    <dimen name="activity_margin">16dp</dimen>
 
+    <!-- BOTONES -->
     <dimen name="btn_type_padding">10dp</dimen>
+    <dimen name="btn_type_stroke">1dp</dimen>
+    <dimen name="btn_type_border">1dp</dimen>
 
     <dimen name="btn_type05_paddingLeft">10dp</dimen>
     <dimen name="btn_type05_paddingRight">10dp</dimen>
@@ -20,8 +24,46 @@
     <dimen name="btn_type04_width">150dp</dimen>
     <dimen name="btn_type05_width">335dp</dimen>
 
+    <!-- MODALS -->
     <dimen name="mdl_width">343dp</dimen>
+
+    <!-- INPUTS -->
     <dimen name="input_padding">10dp</dimen>
     <dimen name="input_marginRight">10dp</dimen>
+
+    <!--botones menutienda -->
+    <dimen name="tn_btn_width">335dp</dimen>
+    <dimen name="tn_btn_height">47dp</dimen>
+    <dimen name="tn_btn_paddingR_L">10dp</dimen>
+    <dimen name="tn_btn_paddingT_B">15dp</dimen>
+    <dimen name="mit_btn_margitop">25dp</dimen>
+    <dimen name="encabezadowidth">263dp</dimen>
+    <dimen name="encabezadoheight">55dp</dimen>
+    <dimen name="encabezadopaddingtop">10dp</dimen>
+
+    <dimen name="txt_encabezado">25sp</dimen>
+    <dimen name="txt_texto">12sp</dimen>
+
+    <!-- RT_categoriaTienda-->
+    <dimen name="rt_rbtnSuper_width">335dp</dimen>
+    <dimen name="rt_rbtnSuper_height">57dp</dimen>
+    <dimen name="rt_rbtntxt1_marginStart">23dp</dimen>
+    <dimen name="rt_rbtnSuper_marginR_L">20dp</dimen>
+    <dimen name="rt_rbtnSuper_marginTop">42dp</dimen>
+    <dimen name="rt_btnContinuar_marginstart">253dp</dimen>
+    <dimen name="rt_btnContinuar_margintop">450dp</dimen>
+    <dimen name="rt_btncontinuar_width">135dp</dimen>
+    <dimen name="rt_btncontinuar_height">44dp</dimen>
+
+    <!--rt_frgcreardtsesc1 -->
+
+    <dimen name="rt_txtfld_marginstart">45dp</dimen>
+    <dimen name="rt_txtfld_margintop">70dp</dimen>
+    <dimen name="rt_txtfld_margintoptxtfld">20dp</dimen>
+    <dimen name="rt_txtfld_width">286dp</dimen>
+    <dimen name="rt_txtfld_height">35dp</dimen>
+    <dimen name="rt_txtfld_padding">10dp</dimen>
+    <dimen name="rt_txtfld_txtsize">12sp</dimen>
+
 
 </resources>

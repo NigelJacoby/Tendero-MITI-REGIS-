@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_400"
+    android:layout_margin="@dimen/activity_margin"
+    tools:context=".tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgdetallepedido">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETALLE DEL PEDIDO"
+        android:gravity="center"
+        android:textColor="@color/blackPrimary"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DETALLE DEL PEDIDO N°:"
+            android:textColor="@color/blackPrimary"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:id="@+id/mio_txtnumpedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="00000001"
+            android:paddingTop="10dp"
+            android:textColor="@color/blackPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/txt_Nombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cliente:"
+        android:textColor="@color/blackPrimary"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/mio_txtnumpedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Juan Valverde"
+        android:paddingTop="10dp"
+        android:textColor="@color/blackPrimary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/blackPrimary"
+            android:text="Asignar repartidor"
+            android:textSize="16dp"/>
+        <Spinner
+            android:id="@+id/is_sptipopersona"
+            android:layout_width="180dp"
+            android:layout_height="42dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="16dp"
+            android:hint="Seleccione repartidor"
+            android:entries="@array/repartidores"
+            android:gravity="center_horizontal"
+            ></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/mio_dpbtnchat"
+            android:layout_width="@dimen/btn_type03_width"
+            android:layout_height="match_parent"
+            android:text="@string/mio_varstrdetallepedido3"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/containedbutton_white"
+            android:textColor="@color/blackPrimary"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/blackPrimary"
+        android:text="@string/mio_varstrdetallepedido4"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido5"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido6"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido7"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido8"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido9"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido10"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido11"
+        android:textColor="@color/blackPrimary"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/mio_dpedtdireccionentrega"
+        android:layout_width="390dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:hint="Calle las Gardenias 1705" />
+
+    <Button
+        android:id="@+id/mio_dpbtndetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER PRODUCTOS"
+        android:background="@drawable/containedbutton_white"
+        >
+
+    </Button>
+</LinearLayout>

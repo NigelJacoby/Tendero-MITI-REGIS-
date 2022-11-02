@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".UI.Mi_tienda.mit_frgMenuTienda">
+
+
+    <Button
+        android:id="@+id/rt_MntndbtnPrvdr"
+        android:drawableStart="@drawable/icon_menuprvdr"
+        android:drawableEnd="@drawable/ic_round_navigate_next_24"
+        android:layout_width="@dimen/tn_btn_width"
+        android:layout_height="@dimen/tn_btn_height"
+        android:layout_marginTop="25dp"
+        android:text="@string/mit_varstrmenutienda1"
+        style="@style/btnmenutnd"
+        />
+
+    <Button
+        android:id="@+id/rt_StckbtnStck"
+        android:drawableStart="@drawable/ic_icon_stock"
+        android:drawableEnd="@drawable/ic_round_navigate_next_24"
+        android:layout_width="@dimen/tn_btn_width"
+        android:layout_height="@dimen/tn_btn_height"
+        android:text="@string/mit_varstrmenutienda2"
+        style="@style/btnmenutnd"
+        />
+
+    <Button
+        android:id="@+id/rt_EdtDtsbtnEdtDts"
+        android:drawableStart="@drawable/ic_icon_editdts"
+        android:drawableEnd="@drawable/ic_round_navigate_next_24"
+        android:layout_height="@dimen/tn_btn_height"
+        android:layout_width="@dimen/tn_btn_width"
+        android:text="@string/mit_varstrmenutienda3"
+        style="@style/btnmenutnd"
+        />
+
+    <Button
+        android:id="@+id/rt_CmbrtndbtnCmbrtn"
+        android:drawableStart="@drawable/ic_icon_cmbrtnd"
+        android:drawableEnd="@drawable/ic_round_navigate_next_24"
+        android:layout_height="@dimen/tn_btn_height"
+        android:layout_width="@dimen/tn_btn_width"
+        android:text="@string/mit_varstrmenutienda4"
+        style="@style/btnmenutnd"
+        />
+
+    <Button
+        android:id="@+id/rt_AgrgtndbtnAgrgtnd"
+        android:drawableStart="@drawable/ic_icon_agrgrtnd"
+        android:drawableEnd="@drawable/ic_round_navigate_next_24"
+        android:layout_height="@dimen/tn_btn_height"
+        android:layout_width="@dimen/tn_btn_width"
+        android:text="@string/mit_varstrmenutienda5"
+        style="@style/btnmenutnd"
+        android:background="@drawable/btn_stylecmbrtnd"/>
+</LinearLayout>

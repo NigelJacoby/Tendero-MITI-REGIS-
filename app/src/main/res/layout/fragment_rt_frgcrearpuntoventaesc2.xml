@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.rt_frgcrearpuntoventaesc2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/encabezadowidth"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/rt_rbtntxt1_marginStart"
+            android:text="@string/rt_varstrcrearpuntoventa1"
+            android:textColor="@color/txtEncabezado"
+            style="@style/txtstyle_h1"
+            />
+        <!-- preguntar-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rt_cpvedtnombremarca"
+            android:hint="@string/rt_varstrcrearpuntoventa2"
+            style="@style/txtflddatostienda"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rt_cpvedtventames"
+            android:hint="@string/rt_varstrcrearpuntoventa3"
+            style="@style/txtflddatostienda">
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rt_cpvedtcorreo"
+            android:text="@string/rt_varstrcrearpuntoventa4"
+            style="@style/txtflddatostienda">
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rt_cpvedtcelular"
+            android:text="@string/rt_varstrcrearpuntoventa5"
+            style="@style/txtflddatostienda">
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rt_cpvedtinventario"
+            android:text="@string/rt_varstrcrearpuntoventa6"
+            style="@style/txtflddatostienda">
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <Spinner
+            android:id="@+id/rt_crdtsspnrciudad"
+            style="@style/txtflddatostienda"
+            />
+
+        <Button
+            android:id="@+id/rt_cpvebtncambiarubicacion"
+            style="@style/btnorangeprimary"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="35dp"
+            android:drawableStart="@drawable/ic_icon_geoaltfill"
+            android:text="@string/rt_varstrcrearpuntoventa8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rt_varstrcrearpuntoventa9"
+            style="@style/txtstyle_h2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtFld_rt03esc2ubc"
+            android:layout_marginTop="10dp"
+            style="@style/txtflddatostienda"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/rt_cpvebtncontinuar"
+                style="@style/btncontinuar"
+
+                android:layout_marginTop="85dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/str_btn_continuar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</ScrollView>

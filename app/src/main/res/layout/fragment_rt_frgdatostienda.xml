@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.rt_frgDatosTienda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!--Nombre de tienda -->
+    <TextView
+        android:id="@+id/txt_rt04nmbrtnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/imgVw_rt04imgtnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/txt_rt04txtprf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        style="@style/txtstyle_h2"
+        android:text="@string/rt_varstrdatostienda1"
+        />
+
+    <!--Nombre de tienda -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nombre de la tienda"
+        style="@style/txtfld"
+        >
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <ImageView
+        android:id="@+id/imgVw_rt04imgedtr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_pencilsquare" /></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_rt04ctgrtnd"
+
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rbtn"
+        android:textSize="@dimen/rt_txtfld_txtsize"
+        android:hint="Sitio Web"
+        android:padding="@dimen/rt_txtfld_padding">
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <ImageView
+        android:id="@+id/imgVw_rt04imgedtr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_pencilsquare" /></LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_rt04url"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rbtn"
+        android:textSize="@dimen/rt_txtfld_txtsize"
+        android:padding="@dimen/rt_txtfld_padding"
+        android:hint="@string/rt_varstrdatostienda2"
+        >
+    </com.google.android.material.textfield.TextInputEditText>
+
+<!-- -->
+    <TextView
+        android:id="@+id/txt_rt04infprvd"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rt_varstrdatostienda3"
+        android:layout_marginStart="10dp"
+        style="@style/txtstyle_h2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_rt0email"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rbtn"
+        android:textSize="@dimen/rt_txtfld_txtsize"
+        android:hint="Correo"
+        android:padding="@dimen/rt_txtfld_padding">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <ImageView
+        android:id="@+id/imgVw_rt04imgedtr3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_pencilsquare"/></LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="18dp"
+     android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_rt04nmtlfn"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rbtn"
+        android:textSize="@dimen/rt_txtfld_txtsize"
+        android:hint="Telefono"
+        android:padding="@dimen/rt_txtfld_padding">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <ImageView
+        android:id="@+id/imgVw_rt04imgedtr4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_pencilsquare" /></LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="18dp"
+     android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtFld_rt04ubc"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rbtn"
+        android:textSize="@dimen/rt_txtfld_txtsize"
+        android:hint="Ubicación"
+        android:padding="@dimen/rt_txtfld_padding">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <ImageView
+        android:id="@+id/imgVw_rt04imgedtr5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_pencilsquare"/></LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_rt04ctnr"
+            android:layout_width="@dimen/rt_btncontinuar_width"
+            android:layout_height="@dimen/rt_btncontinuar_height"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/rbtn_stylecontinuar"
+            android:text="@string/str_btn_continuar"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
+</ScrollView>

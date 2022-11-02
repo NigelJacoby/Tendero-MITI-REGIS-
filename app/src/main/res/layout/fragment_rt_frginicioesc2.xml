@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lstVw_rtcrearpvTnds"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.rt_frginicioesc2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/str_BienvenidoEncargalo"
+        />
+
+    <ImageView
+        android:id="@+id/rt_LEimgVwLogoEncargalo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:id="@+id/rt_MTtxtMisTiendas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rt_varstrinicioesc21"
+        />
+
+    <ListView
+        android:id="@+id/rt_TClstVwTiendasCreadas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/rt_CPVbtnCrearPuntoVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

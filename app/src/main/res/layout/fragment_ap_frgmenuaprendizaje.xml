@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_200"
+    tools:context=".tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgmenuaprendizaje">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ap_imgaprendizaje"
+            android:layout_marginTop="45dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/txtstyle_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/ap_varstrmenuaprendizaje1"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/grey_400"
+            android:orientation="horizontal"
+            android:paddingTop="60dp"
+            android:paddingBottom="60dp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:layout_editor_absoluteX="0dp">
+
+            <Button
+                android:id="@+id/ap_mabtncategoria"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ap_iconfolder"
+                android:text="@string/ap_varstrmenuaprendizaje2"
+                android:stateListAnimator="@null"
+                android:layout_marginRight="20dp"
+                android:textAllCaps="false"
+                android:drawablePadding="5dp"
+                style="@style/txtstyle_content"/>
+
+            <Button
+                android:id="@+id/ap_mabtneventos"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ap_iconmedia"
+                android:text="@string/ap_varstrmenuaprendizaje3"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:drawablePadding="5dp"
+                style="@style/txtstyle_content"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

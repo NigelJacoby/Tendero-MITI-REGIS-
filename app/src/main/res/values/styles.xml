@@ -16,18 +16,39 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-
     <!--        Modulo inicio de sesion(is)        -->
 
 
-
     <!--        Modulo Aprendizaje(ap)             -->
-
-
-
     <!--        Modulo Publicidad(pub)             -->
 
-
+    <!--Estilos de textos-->
+    <style name="txtstyle_content">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/blackPrimary</item>
+    </style>
+    <style name="txtstyle_content_bold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/blackPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="txtstyle_title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/blackPrimary</item>
+    </style>
+    <style name="txtstyle_white">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/whitePrimary</item>
+    </style>
+    <style name="txtstyle_blue">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/blue_600</item>
+    </style>
+    <style name="txtstyle_h1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:textColor">@color/blackPrimary</item>
+    </style>
 
     <!--        Modulo Registro tienda(rt)         -->
 
@@ -47,6 +68,172 @@
 
     <!--        Modulo Tienda(mit)                 -->
 
+    <!--Botones-->
+    <style name="btnorangeprimary" parent="Widget.AppCompat.Button">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/btn_stylecmbrtnd</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/txt_texto</item>
+    </style>
+
+    <style name="btncyan" parent="Widget.AppCompat.Button">
+        <item name="android:padding">10dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/cyan_600</item>
+    </style>
+
+    <!--Boton exportar-->
+    <style name="btnexportar" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">91dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">120dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+
+    </style>
+
+    <!--Boton continuar-->
+
+    <style name="btncontinuar" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">135dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/cyan_600</item>
+    </style>
+
+    <!--Boton AgregarUbicacion-->
+
+    <style name="btnagregarubicacion" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">145dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/btn_stylecmbrtnd</item>
+    </style>
+
+    <!--Boton cancelar-->
+
+    <style name="btncancelar" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">145dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/whitePrimary</item>
+        <item name="android:background">@drawable/btn_styleredprimary</item>
+    </style>
+    <!-- textfield datostienda-->
+    <style name="txtflddatostienda">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/rbtn</item>
+    </style>
+
+    <!--Botones menu tienda -->
+    <style name="btnmenutnd" parent="Widget.AppCompat.Button">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">47dp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/btn_style</item>
+    </style>
+
+    <!--Botones menu producto-->
+    <style name="btnmenuproductos" parent="Widget.AppCompat.Button">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">47dp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/rbtn</item>
+    </style>
+
+    <!--Boton buscador -->
+    <style name="btnbuscador" parent="Widget.AppCompat.Button">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:drawableBottom">@drawable/ic_icon_browser</item>
+    </style>
+
+    <!-- boton volver-->
+    <style name="btnvolver" parent="Widget.AppCompat.Button">
+
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawable">@drawable/btn_stylevolver</item>
+        <item name="android:textColor">@color/blackPrimary</item>
+        <item name="android:layout_marginTop">220dp</item>
+
+    </style>
+
+    <!--textfield -->
+
+    <style name="txtfld" >
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/rbtn</item>
+        <item name="android:textSize">@dimen/rt_txtfld_txtsize</item>
+        <item name="android:padding">@dimen/rt_txtfld_padding</item>
+    </style>
+
+    <style name="txtfldubicacion" >
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/rbtn</item>
+        <item name="android:textSize">@dimen/rt_txtfld_txtsize</item>
+        <item name="android:padding">@dimen/rt_txtfld_padding</item>
+    </style>
+
+    <style name="txtfldinfogeneral">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/rbtn</item>
+        <item name="android:textSize">@dimen/rt_txtfld_txtsize</item>
+        <item name="android:padding">@dimen/rt_txtfld_padding</item>
+
+    </style>
+
+    <style name="rbtncategoriatnd" parent="Widget.AppCompat.CompoundButton.RadioButton">
+
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="txtstyle_h2">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="txtstyle_h3">
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="tn_btnmenutnd">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+
+    <!-- RT_categoriaTienda-->
+    <style name="rt_rbtntxtctgra">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <!--rt_creardatostienda-->
 
 
 

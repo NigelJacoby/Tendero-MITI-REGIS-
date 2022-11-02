@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    tools:context=".tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgmisordenesprincipal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="6dp">
+
+            <SearchView
+                android:id="@+id/mio_mopsrchvwbuscaridorden"
+                android:background="@drawable/border"
+                android:layout_width="365dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="9dp"
+                android:hint="@string/mio_varstrmisordenesprincipal1" />
+
+            <Spinner
+                android:id="@+id/mio_mopsrchvwordenarporestado"
+                android:background="@drawable/border"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="9dp"
+                android:gravity="left"
+                android:spinnerMode="dropdown"
+                android:text="@string/mio_varstrmisordenesprincipal2"
+                android:entries="@array/Filtro_ordenestado"
+                />
+            <Spinner
+                android:id="@+id/mio_mopsrchvwordenarporfecha"
+                android:background="@drawable/border"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="9dp"
+                android:spinnerMode="dropdown"
+                android:text="@string/mio_varstrmisordenesprincipal9"
+                android:entries="@array/Filtro_ordenfecha"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:layout_margin="@dimen/activity_margin"
+            android:padding="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mio_varstrmisordenesprincipal3"
+                    android:textColor="@color/blackPrimary"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_IdOrden"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000001"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cliente:"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/prueba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Jesus Sanchez"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/blackPrimary" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mio_varstrmisordenesprincipal5"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/txt_OrdCreada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="10/10/2022"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mio_varstrmisordenesprincipal6"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/txt_OrdEntregada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="10/10/2022"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/mio_moptxtdetalle"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mio_varstrmisordenesprincipal7"
+                    android:textColor="@color/green_800"/>
+                <TextView
+                    android:id="@+id/mio_moptxtchat"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="@string/mio_varstrmisordenesprincipal8"
+                    android:textColor="@color/green_800"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:layout_margin="@dimen/activity_margin"
+            android:padding="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mio_varstrmisordenesprincipal3"
+                    android:textColor="@color/blackPrimary"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="00000002"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cliente:"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/prueba2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Yuri Marquez"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/blackPrimary" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mio_varstrmisordenesprincipal5"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="12/10/2022"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mio_varstrmisordenesprincipal6"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="12/10/2022"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/blackPrimary"
+                    android:paddingTop="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mio_varstrmisordenesprincipal7"
+                    android:textColor="@color/green_800"/>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:text="@string/mio_varstrmisordenesprincipal8"
+                    android:textColor="@color/green_800"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

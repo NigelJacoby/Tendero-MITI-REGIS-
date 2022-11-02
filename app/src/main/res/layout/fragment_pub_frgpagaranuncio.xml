@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tendero.Inicio_sesion.ui.Mi_publicidad.pub_frgpagaranuncio"
+    android:orientation="vertical"
+    android:background="@color/grey_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_margin"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pub_varstrpagaranuncio1"
+            style="@style/txtstyle_title"
+            android:layout_marginBottom="30dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    style="@style/txtstyle_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/pub_varstrpagaranuncio2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/txtstyle_content"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pub_varstrpagaranuncio4" />
+
+                    <TextView
+                        android:id="@+id/pub_patxtcargodia"
+                        style="@style/txtstyle_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{dato}" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/txtstyle_content"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pub_varstrpagaranuncio5" />
+
+                    <TextView
+                        android:id="@+id/pub_patxtdia"
+                        style="@style/txtstyle_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{dato}" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/txtstyle_content"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pub_varstrpagaranuncio6" />
+
+                    <TextView
+                        android:id="@+id/pub_patxttotalpago"
+                        style="@style/txtstyle_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{dato}" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pub_varstrpagaranuncio3"
+                    style="@style/txtstyle_content"
+                    android:layout_marginBottom="15dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pub_varstrpagaranuncio7"
+                        style="@style/txtstyle_content"/>
+                    <TextView
+                        android:id="@+id/pub_patxtfechadesde"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{dato}"
+                        style="@style/txtstyle_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pub_varstrpagaranuncio8"
+                        style="@style/txtstyle_content"/>
+                    <TextView
+                        android:id="@+id/pub_patxtfechahasta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{dato}"
+                        style="@style/txtstyle_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                style="@style/txtstyle_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pub_varstrpagaranuncio9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/pub_pabtnpagoefectivo"
+                android:layout_width="@dimen/btn_type04_width"
+                android:layout_height="wrap_content"
+                android:text="@string/pub_varstrpagaranuncio10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textAllCaps="false"
+                style="@style/txtstyle_content"
+                android:drawableLeft="@drawable/pub_iconcurrencydollar"
+                android:background="@drawable/outlinedbutton_grey"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/pub_pabtncancelarpago"
+                android:layout_width="@dimen/btn_type03_width"
+                android:layout_height="wrap_content"
+                android:text="@string/str_btn_cancelar"
+                android:background="@drawable/containedbutton_red"
+                android:layout_marginRight="50dp"
+                style="@style/txtstyle_white"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/pub_pabtnpagaranuncio"
+                android:layout_width="@dimen/btn_type03_width"
+                android:layout_height="wrap_content"
+                android:text="@string/pub_varstrpagaranuncio11"
+                android:background="@drawable/containedbutton_orange"
+                style="@style/txtstyle_content"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

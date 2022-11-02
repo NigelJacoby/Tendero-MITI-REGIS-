@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.rt_frgCategoriaTienda">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="40dp"
+        android:text="@string/rt_varstrcategoriatienda1"
+        style="@style/txtstyle_h1"
+        />
+
+        <RadioButton
+        android:id="@+id/rt_CTrbtnSuper"
+        style="@style/rbtncategoriatnd"
+        android:layout_width="@dimen/rt_rbtnSuper_width"
+        android:layout_height="@dimen/rt_rbtnSuper_height"
+        android:background="@drawable/rbtn"
+        android:text="@string/rt_varstrcategoriatienda2"
+        android:paddingBottom="@dimen/tn_btn_paddingT_B">
+        </RadioButton>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            >
+
+            <Button
+                android:id="@+id/rt_ctbtncontinuar"
+                style="@style/btncontinuar"
+                android:layout_marginTop="479dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="25dp"
+                android:text="@string/str_btn_continuar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/cyan_400"
+    android:layout_margin="@dimen/activity_margin"
+    tools:context=".tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgmensajeconfirmacion">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mio_varstrmensajeconformacion1"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/blackPrimary"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mio_varstrmensajeconformacion2"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:gravity="center_horizontal"/>
+
+
+
+    <Button
+        android:id="@+id/mio_mcbtnvolverinicio"
+        android:layout_width="@dimen/btn_type04_width"
+        android:layout_height="wrap_content"
+        android:text="@string/mio_varstrmensajeconformacion3"
+        android:layout_marginTop="200dp"
+        android:textAllCaps="false"
+        android:background="@drawable/containedbutton_white"
+        android:textColor="@color/blackPrimary"/>
+</LinearLayout>

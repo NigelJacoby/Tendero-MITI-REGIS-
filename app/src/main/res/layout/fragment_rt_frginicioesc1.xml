@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.rt_frginicioesc1">
+
+    <TextView
+        android:id="@+id/rt_TBtxtBienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:gravity="center"
+        android:text="@string/str_BienvenidoEncargalo"
+        android:textSize="@dimen/txt_encabezado"
+        android:textColor="@color/txtEncabezado"
+        />
+
+    <ImageView
+        android:id="@+id/rt_LEimgVwLogoEncargalo"
+        android:layout_width="155dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/rt_ie1btnpuntoventa"
+            android:layout_height="@dimen/tn_btn_height"
+            android:layout_width="@dimen/tn_btn_width"
+            android:text="@string/str_btn_crearpuntoventa"
+            style="@style/btnorangeprimary"
+            />
+    </LinearLayout>
+
+</LinearLayout>

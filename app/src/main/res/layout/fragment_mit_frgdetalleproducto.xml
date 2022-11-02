@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.mit_frgDetalleProducto">
+
+    <ImageView
+        android:id="@+id/imgVw_tn04esc2imgprdct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mit_varstrdetalleproducto1"
+        style="@style/txtstyle_h2"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:hint="@string/mit_varstrdetalleproducto2"
+        app:boxBackgroundMode="outline"
+        android:layout_marginTop="15dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mit_dpedtcodigo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/rbtn"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:hint="@string/mit_varstrdetalleproducto3"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mit_dpedtstock"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/rbtn">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:hint="@string/mit_varstrregistrarproducto6"
+        app:boxBackgroundMode="outline">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mit_dpedtdescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/rbtn">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:hint="@string/mit_varstrregistrarproducto7"
+        app:boxBackgroundMode="outline"
+        android:background="@drawable/rbtn">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mit_dpedtselecctgr"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:padding="10dp">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:hint="@string/mit_varstrdetalleproducto6"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mit_dpedtcostoproduct"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/str_txt_simboloprecio"
+            android:background="@drawable/rbtn"
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:hint="@string/mit_varstrdetalleproducto7"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mit_dpedtprecioventa"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/str_txt_simboloprecio"
+            android:background="@drawable/rbtn">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        >
+
+        <Button
+            android:id="@+id/txt_tn04esc2cntdltm"
+            style="@style/btncyan"
+            android:layout_width="135dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="150dp"
+            android:text="@string/mit_varstrdetalleproducto8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txt_tn04esc2ltmvnt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/txt_tn04esc2ltmvnt"
+            style="@style/btncancelar"
+            android:layout_width="135dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="150dp"
+            android:text="@string/mit_varstrdetalleproducto9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txt_tn04esc2cntdltm"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

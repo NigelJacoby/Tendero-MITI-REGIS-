@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_is_actcrearunacuenta"
+    android:layout_margin="@dimen/activity_margin"
+    android:gravity="center_horizontal"
+    android:padding="81dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/is_edtnombre"
+        android:layout_width="255dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:text="Juan"
+        android:gravity="center_horizontal"
+        />
+        <!--        android:text="@string/is_varstrcrearunacuenta1"-->
+
+
+        android:gravity="center_horizontal" />
+    <EditText
+        android:id="@+id/is_edtapellido"
+        android:layout_width="255dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:text="Valverde"
+        android:gravity="center_horizontal"
+        />
+<!--        android:text="@string/is_varstrcrearunacuenta2"-->
+
+
+    <EditText
+        android:id="@+id/is_edtcorreo"
+        android:layout_width="255dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:text="jval@gmail.com"
+        android:gravity="center_horizontal"
+        />
+<!--        android:text="@string/is_varstrcrearunacuenta3"-->
+
+
+    <Spinner
+        android:id="@+id/is_sptipopersona"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="16dp"
+        android:text="@string/is_varstrcrearunacuenta4"
+        android:entries="@array/is_varstrcrearunacuenta8"
+        android:gravity="center_horizontal"
+        />
+
+
+        <EditText
+            android:id="@+id/is_spcodigodelpais"
+            android:layout_width="255dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="16dp"
+            android:text="854256458"
+            android:gravity="center_horizontal"
+            android:textColor="@color/blackPrimary" />
+<!--        android:hint="Número de celular"-->
+
+    <CheckBox
+        android:id="@+id/is_chkbterminosycondiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/is_varstrcrearunacuenta6"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/is_ispbtnRegistrarse"
+        android:layout_width="@dimen/btn_type01_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/containedbutton_orange"
+        android:text="@string/is_varstrcrearunacuenta7"
+        android:textAllCaps="false"
+        android:textColor="@color/blackPrimary"
+
+
+        />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

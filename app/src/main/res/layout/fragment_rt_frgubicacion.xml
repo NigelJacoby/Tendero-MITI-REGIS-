@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.rt_frgubicacion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="267dp"
+            android:layout_height="35dp"
+            style="@style/txtfldubicacion"
+            android:hint="@string/rt_varstrubicacion1">
+        </com.google.android.material.textfield.TextInputEditText>
+        <Button
+            android:layout_width="45dp"
+            android:background="#00000000"
+            android:layout_height="35dp"
+            style="@style/btnbuscador"/>
+    </LinearLayout>
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mpVw_rt03ubcmp"
+        android:layout_width="342dp"
+        android:layout_height="192dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/rt_ubtnagregarubicacion"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/rt_varstrubicacion2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/btnagregarubicacion"
+            />
+
+        <Button
+            android:id="@+id/rt_ubtncancelar"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/str_btn_cancelar"
+            app:layout_constraintStart_toEndOf="@+id/rt_ubtnagregarubicacion"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/btncancelar"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

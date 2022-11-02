@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_mi_tienda">
+    app:startDestination="@+id/nav_menutienda">
 
     <fragment
         android:id="@+id/nav_mi_tienda"
@@ -19,25 +19,291 @@
 
     <fragment
         android:id="@+id/nav_mis_ordenes"
-        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.od_frgmenumisordenes"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgmisordenesprincipal"
         android:label="@string/menu_misordenes"
-        tools:layout="@layout/fragment_od_frgmenumisordenes" />
+        tools:layout="@layout/fragment_mio_frgmisordenesprincipal" />
 
     <fragment
         android:id="@+id/nav_mi_publicidad"
-        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_publicidad.pb_frgmenupublicidad"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_publicidad.pub_frgmenupublicidad"
         android:label="@string/menu_mipublicidad"
-        tools:layout="@layout/fragment_pb_frgmenupublicidad" />
+        tools:layout="@layout/fragment_pub_frgmenupublicidad" />
 
     <fragment
         android:id="@+id/nav_mi_aprendizaje"
-        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgmaterialesdeaprendizaje"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgmenuaprendizaje"
         android:label="@string/menu_miaprendizaje"
-        tools:layout="@layout/fragment_ap_frgmaterialesdeaprendizaje" />
+        tools:layout="@layout/fragment_ap_frgmenuaprendizaje" />
 
     <fragment
         android:id="@+id/nav_soporte"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Soporte.sp_frgmenusoporte"
         android:label="@string/menu_soporte"
-        tools:layout="@layout/fragment_sp_frgmenusoporte" />
+        tools:layout="@layout/fragment_sp_frgmenusoporte" >
+        <action
+            android:id="@+id/action_nav_soporte_to_nav_configuracionnotificaiones"
+            app:destination="@id/nav_configuracionnotificaiones" />
+        <action
+            android:id="@+id/action_nav_soporte_to_nav_centroayuda"
+            app:destination="@id/nav_centroayuda" />
+
+        <action
+            android:id="@+id/action_nav_soporte_to_nav_acercade"
+            app:destination="@id/nav_acercade" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_configuracionnotificaiones"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Soporte.sp_frgconfiguracionnotificaciones"
+        android:label="@string/menu_soporte"
+        tools:layout="@layout/fragment_sp_frgconfiguracionnotificaciones" />
+
+    <fragment
+        android:id="@+id/nav_centroayuda"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Soporte.sp_menucentroayuda"
+        android:label="@string/menu_soporte_centro_de_ayuda"
+        tools:layout="@layout/fragment_sp_menucentroayuda" >
+        <action
+            android:id="@+id/action_nav_centroayuda_to_nav_detallevideodemo"
+            app:destination="@id/nav_detallevideodemo" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_terminosYcondiciones"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Soporte.sp_Menuterminoscondiciones"
+        android:label="@string/menu_soporte_terminos_condiciones_terminos"
+        tools:layout="@layout/fragment_sp_menuterminoscondiciones" >
+        <action
+            android:id="@+id/action_nav_terminosYcondiciones_to_nav_soporte"
+            app:destination="@id/nav_soporte" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_detallevideodemo"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Soporte.sp_detallevideodemostrativo"
+        android:label="@string/menu_soporte_centro_de_ayuda_btn_2"
+        tools:layout="@layout/fragment_sp_detallevideodemostrativo" />
+    <fragment
+        android:id="@+id/nav_detallepregfre"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Soporte.sp_DetallePreguntaFrecuentes"
+        android:label="@string/menu_soporte_centro_de_ayuda_btn_1"
+        tools:layout="@layout/fragment_sp__detalle_pregunta_frecuentes" />
+    <fragment
+        android:id="@+id/nav_acercade"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Soporte.sp_frgacercade"
+        android:label="@string/menu_soporte_acerca_de"
+        tools:layout="@layout/fragment_sp_frgacercade" />
+
+    <fragment
+        android:id="@+id/nav_crearanuncio"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_publicidad.pub_frgcrearanuncio"
+        android:label="@string/pub_varstrcrearanuncio0"
+        tools:layout="@layout/fragment_pub_frgcrearanuncio" />
+    <fragment
+        android:id="@+id/nav_detalleanuncio"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_publicidad.pub_frgdetalleanuncio"
+        android:label="@string/pub_varstrdetalleanuncio1"
+        tools:layout="@layout/fragment_pub_frgdetalleanuncio" />
+    <fragment
+        android:id="@+id/nav_listadomisanuncios"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_publicidad.pub_frglistadomisanuncios"
+        android:label="@string/pub_varstrlistadomisanuncios0"
+        tools:layout="@layout/fragment_pub_frglistadomisanuncios" />
+    <fragment
+        android:id="@+id/nav_pagaranuncios"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_publicidad.pub_frgpagaranuncio"
+        android:label="@string/pub_varstrpagaranuncio1"
+        tools:layout="@layout/fragment_pub_frgpagaranuncio" />
+    <fragment
+        android:id="@+id/nav_codigopago"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_publicidad.pub_frgcodigopago"
+        android:label="@string/pub_varstranunciopagado1"
+        tools:layout="@layout/fragment_pub_frgcodigopago" />
+
+    <fragment
+        android:id="@+id/nav_categoriaaprendizaje"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgcategoriaaprendizaje"
+        android:label="@string/ap_varstrcategoriaaprendizaje0"
+        tools:layout="@layout/fragment_ap_frgcategoriaaprendizaje" />
+    <fragment
+        android:id="@+id/nav_cursoscategoriavender"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgcursoscategoriavender"
+        android:label="@string/ap_varstrcategoriaaprendizaje4"
+        tools:layout="@layout/fragment_ap_frgcursoscategoriavender" />
+    <fragment
+        android:id="@+id/nav_cursoscategoriautoaprendizaje"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgcursoscategoriaautoaprendizaje"
+        android:label="@string/ap_varstrcategoriaaprendizaje5"
+        tools:layout="@layout/fragment_ap_frgcursoscategoriaautoaprendizaje" />
+    <fragment
+        android:id="@+id/nav_cursoscategoria"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frglistadocategoria"
+        android:label="@string/ap_varstrcursoscategoria0"
+        tools:layout="@layout/fragment_ap_frglistadocategoria" />
+    <fragment
+        android:id="@+id/nav_cursoscategoriaoperacionesnegocio"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgcursoscategoriaopercionesnegocio"
+        android:label="@string/ap_varstrcategoriaaprendizaje6"
+        tools:layout="@layout/fragment_ap_frgcursoscategoriaopercionesnegocio" />
+    <fragment
+        android:id="@+id/nav_eventosenvivo"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgeventosenvivo"
+        android:label="@string/ap_varstreventosenvivo0"
+        tools:layout="@layout/fragment_ap_frgeventosenvivo" />
+    <fragment
+        android:id="@+id/nav_misfavoritos"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_Aprendizaje.ap_frgmisfavoritos"
+        android:label="@string/ap_varsmisfavoritos0"
+        tools:layout="@layout/fragment_ap_frgmisfavoritos" />
+
+    <fragment
+        android:id="@+id/nav_misordenesdetallepedido"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgdetallepedido"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_mio_frgdetallepedido" />
+
+    <fragment
+        android:id="@+id/nav_misordenesdetalleproducto"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgdetalleproducto"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_mio_frgdetalleproducto" />
+
+    <fragment
+        android:id="@+id/nav_misordenesconversacion"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgconversacion"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_mio_frgconversacion" />
+
+
+    <fragment
+        android:id="@+id/nav_inicioesc1"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frginicioesc1"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_rt_frginicioesc1" >
+        <action
+            android:id="@+id/action_nav_inicioesc1_to_nav_categoriatienda"
+            app:destination="@id/nav_categoriatienda" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_categoriatienda"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frgCategoriaTienda"
+        android:label="Crear punto de venta"
+        tools:layout="@layout/fragment_rt_frgcategoriatienda" >
+        <action
+            android:id="@+id/action_nav_categoriatienda_to_nav_crearpuntoventa"
+            app:destination="@id/nav_crearpuntoventa" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_crearpuntoventa"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frgcrearpuntoventa"
+        android:label="Crear punto de venta"
+        tools:layout="@layout/fragment_rt_frgcrearpuntoventa" >
+        <action
+            android:id="@+id/action_nav_crearpuntoventa_to_nav_ubicacion"
+            app:destination="@id/nav_ubicacion" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_ubicacion"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frgubicacion"
+        android:label="Añadir ubicación"
+        tools:layout="@layout/fragment_rt_frgubicacion" >
+        <action
+            android:id="@+id/action_nav_ubicacion_to_nav_crearpuntoventa"
+            app:destination="@id/nav_crearpuntoventa" />
+        <action
+            android:id="@+id/action_nav_ubicacion_to_rt_crearpuntoventaesc2"
+            app:destination="@id/rt_frgcrearpuntoventaesc2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_datostienda"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frgDatosTienda"
+
+        tools:layout="@layout/fragment_rt_frgdatostienda" >
+        <action
+            android:id="@+id/action_nav_datostienda_to_nav_menutienda"
+            app:destination="@id/nav_menutienda" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_puntoventacreado"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frgpuntoventacreado"
+        tools:layout="@layout/fragment_rt_frgpuntoventacreado" >
+        <action
+            android:id="@+id/action_nav_puntoventacreado_to_nav_inicioesc3"
+            app:destination="@id/nav_inicioesc3" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_inicioesc3"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frginicioesc3"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_rt_frginicioesc3" />
+    <fragment
+        android:id="@+id/nav_menutienda"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgMenuTienda"
+        android:label="Mi tienda"
+        tools:layout="@layout/fragment_mit_frgmenutienda" >
+        <action
+            android:id="@+id/action_nav_menutienda_to_nav_inicioesc3"
+            app:destination="@id/nav_inicioesc3" />
+        <action
+            android:id="@+id/action_nav_menutienda_to_nav_categoriatienda"
+            app:destination="@id/nav_categoriatienda" />
+        <action
+            android:id="@+id/action_nav_menutienda_to_nav_datostienda"
+            app:destination="@id/nav_datostienda" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cambiartienda"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgCambiarTienda"
+        android:label="Cambiar tienda"
+        tools:layout="@layout/fragment_mit_frgcambiartienda" />
+    <fragment
+        android:id="@+id/nav_menuproductos"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgMenuProductos"
+        android:label="Productos"
+        tools:layout="@layout/fragment_mit_frgmenuproductos" >
+        <action
+            android:id="@+id/action_nav_menuproductos_to_nav_registrarproducto"
+            app:destination="@id/nav_registrarproducto" />
+        <action
+            android:id="@+id/action_nav_menuproductos_to_nav_reporteproductos"
+            app:destination="@id/nav_reporteproductos" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_registrarproducto"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgRegistrarProducto"
+        android:label="Registrar producto"
+        tools:layout="@layout/fragment_mit_frgregistrarproducto" >
+        <action
+            android:id="@+id/action_nav_registrarproducto_to_nav_productoagregado"
+            app:destination="@id/nav_productoagregado" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_productoagregado"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgproductoagregado"
+        tools:layout="@layout/fragment_mit_frgproductoagregado" >
+        <action
+            android:id="@+id/action_nav_productoagregado_to_nav_menuproductos"
+            app:destination="@id/nav_menuproductos" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_reporteproductos"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgReporteProductos"
+        android:label="Report de productos"
+        tools:layout="@layout/fragment_mit_frgreporteproductos" />
+    <fragment
+        android:id="@+id/nav_detalleproducto"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgDetalleProducto"
+        android:label="Detalle de producto"
+        tools:layout="@layout/fragment_mit_frgdetalleproducto" />
+    <fragment
+        android:id="@+id/rt_frgcrearpuntoventaesc2"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frgcrearpuntoventaesc2"
+        android:label="fragment_rt_frgcrearpuntoventaesc2"
+        tools:layout="@layout/fragment_rt_frgcrearpuntoventaesc2" >
+        <action
+            android:id="@+id/action_rt_crearpuntoventaesc2_to_nav_puntoventacreado"
+            app:destination="@id/nav_puntoventacreado" />
+        <action
+            android:id="@+id/action_rt_crearpuntoventaesc2_to_nav_ubicacion"
+            app:destination="@id/nav_ubicacion" />
+    </fragment>
 </navigation>

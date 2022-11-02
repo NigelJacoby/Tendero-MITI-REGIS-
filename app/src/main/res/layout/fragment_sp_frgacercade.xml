@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tendero.Inicio_sesion.ui.Soporte.sp_frgacercade">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_so_04_terms_cons_uso_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        android:text="@string/menu_soporte_acerca_de"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_so_05_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/menu_soporte_acerca_de_btn_1"/>
+
+    <Button
+        android:id="@+id/btn_so_05_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/menu_soporte_acerca_de_btn_2"
+        />
+
+    <Button
+        android:id="@+id/btn_so_05_instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/menu_soporte_acerca_de_btn_3"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Mi_tienda.mit_frgCambiarTienda">
+
+    <SearchView
+
+        android:id="@+id/srchVw_tn01esc2bscdtnd"
+        android:layout_width="286dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rbtn"
+        android:layout_marginTop="20dp"
+        />
+
+    <ListView
+        android:id="@+id/lstVw_tn01esc2lsttnd"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="187dp" />
+
+</LinearLayout>

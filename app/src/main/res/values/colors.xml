@@ -24,4 +24,7 @@
     <color name="orangePrimary">#F4C74A</color>
     <color name="redPrimary">#E44848</color>
     <color name="purplePrimary">#B6A6D6</color>
+
+    <color name="txtEncabezado">#FF000000</color>
+    <color name="txtNomTnd">#0366AA</color>
 </resources>

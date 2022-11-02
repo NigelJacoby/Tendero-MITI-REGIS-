@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">ENCARGALO</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -16,17 +17,121 @@
     <string name="menu_miaprendizaje">MI APRENDIZAJE</string>
     <string name="menu_soporte">SOPORTE</string>
 
+    <!-- GENERALES -->
+    <string name="str_terminos_politicas">Al continuar, usted acepta los Términos y condiciones y Política de Privacidad</string>
+    <string name="str_btn_continuar">Continuar</string>
+    <string name="str_btn_cancelar">Cancelar</string>
+    <string name="str_home">Eso fue rápido!</string>
+    <string name="str_btn_volver_inicio">Volver a inicio</string>
+    <string name="str_btn_volver">Volver</string>
+
     <!--        Modulo inicio de sesion(is)        -->
 
+    <!-- is_iniciarsesionprincipal -->
+    <string name="is_varstriniciariesionprincipal1">ENVIA TUS PRODUCTOS A MÁS PERSONAS</string>
+    <string name="is_varstriniciariesionprincipal2">Continuar con Facebook</string>
+    <string name="is_varstriniciariesionprincipal3">Continuar con Google</string>
 
+    <!-- Is_crearunacuenta -->
+    <string name="is_varstrcrearunacuenta1">Nombre</string>
+    <string name="is_varstrcrearunacuenta2">Apellido</string>
+    <string name="is_varstrcrearunacuenta3">Correo</string>
+    <string name="is_varstrcrearunacuenta4">Tipo de Persona</string>
+    <string name="is_varstrcrearunacuenta5">52</string>
+    <string name="is_varstrcrearunacuenta6">Acepto los términos y condiciones y políticas de Privacidad</string>
+    <string name="is_varstrcrearunacuenta7">Registrarse</string>
+    <string-array name="is_varstrcrearunacuenta8">
+        <item>Persona natural</item>
+        <item>Persona jurídica</item>
+    </string-array>
+
+    <!-- is_verificacioncodigo -->
+    <string name="is_varstrverificacioncodigo1">Ingrese el código de verificación</string>
+    <string name="is_varstrverificacioncodigo2">Se le ha enviado un código de verificación a tu cuenta de correo</string>
+    <string name="is_varstrverificacioncodigo3">Ingrese código</string>
+    <string name="is_varstrverificacioncodigo4">Reenviar Código</string>
+    <string name="is_varstrverificacioncodigo5">Ingrese código</string>
 
     <!--        Modulo Aprendizaje(ap)             -->
 
+    <!-- ap_menuaprendizaje -->
+    <string name="ap_varstrmenuaprendizaje0">Materiales de aprendizaje</string>
+    <string name="ap_varstrmenuaprendizaje1">Busca recursos de aprendizaje y vuelvete un especialista en negocios</string>
+    <string name="ap_varstrmenuaprendizaje2">Categorías</string>
+    <string name="ap_varstrmenuaprendizaje3">Eventos en vivo</string>
+    <!-- ap_categoriaaprendizaje -->
+    <string name="ap_varstrcategoriaaprendizaje0">Mi Aprendizaje</string>
+    <string name="ap_varstrcategoriaaprendizaje1">Buscar</string>
+    <string name="ap_varstrcategoriaaprendizaje2">Favoritos</string>
+    <string name="ap_varstrcategoriaaprendizaje3">Ver más</string>
+    <string name="ap_varstrcategoriaaprendizaje4">Aprendizaje relacionado a vender</string>
+    <string name="ap_varstrcategoriaaprendizaje5">Aprendizaje relacionado a autoaprendizaje</string>
+    <string name="ap_varstrcategoriaaprendizaje6">Aprendizaje relacionado a las operaciones del negocio</string>
+    <!-- ap_misfavoritos -->
+    <string name="ap_varsmisfavoritos0">Mis favoritos</string>
+    <!-- ap_eventosenvivo -->
+    <string name="ap_varstreventosenvivo0">Eventos en vivo</string>
+    <string name="ap_varstreventosenvivo1">Recurso web</string>
+    <string name="ap_varstreventosenvivo2">Charla: </string>
+    <string name="ap_varstreventosenvivo3">Fecha, hora: </string>
+    <!-- ap_cursoscategoria -->
+    <string name="ap_varstrcursoscategoria0">Cursos</string>
 
 
     <!--        Modulo Publicidad(pub)             -->
 
-
+    <!-- pub_menupublicidad -->
+    <string name="pub_varstrmenupublicidad0">Publicidad</string>
+    <string name="pub_varstrmenupublicidad1">Crea un anuncio y llega  más personas</string>
+    <string name="pub_varstrmenupublicidad2">Crear anuncio</string>
+    <string name="pub_varstrmenupublicidad3">Mis anuncios</string>
+    <!-- pub_crearanuncio -->
+    <string name="pub_varstrcrearanuncio0">Crear anuncio</string>
+    <string name="pub_varstrcrearanuncio1">Imagen</string>
+    <string name="pub_varstrcrearanuncio2">Seleccionar imagen</string>
+    <string name="pub_varstrcrearanuncio3">Título del anuncio</string>
+    <string name="pub_varstrcrearanuncio4">Texto del anuncio</string>
+    <string name="pub_varstrcrearanuncio5">Link de redireccionamiento</string>
+    <string name="pub_varstrcrearanuncio6">Programar fecha de lanzamiento:</string>
+    <string name="pub_varstrcrearanuncio7">Fecha de inicio</string>
+    <string name="pub_varstrcrearanuncio8">Fecha de fin</string>
+    <!-- pub_pagaranuncio -->
+    <string name="pub_varstrpagaranuncio1">Resumen y pago</string>
+    <string name="pub_varstrpagaranuncio2">Resumen:</string>
+    <string name="pub_varstrpagaranuncio3">Fecha:</string>
+    <string name="pub_varstrpagaranuncio4">Cargo por día</string>
+    <string name="pub_varstrpagaranuncio5">Días</string>
+    <string name="pub_varstrpagaranuncio6">Total a pagar</string>
+    <string name="pub_varstrpagaranuncio7">Desde</string>
+    <string name="pub_varstrpagaranuncio8">Hasta</string>
+    <string name="pub_varstrpagaranuncio9">Seleccione medio de pago:</string>
+    <string name="pub_varstrpagaranuncio10">Efectivo</string>
+    <string name="pub_varstrpagaranuncio11">Pagar</string>
+    <!-- pub_listadomisanuncio -->
+    <string name="pub_varstrlistadomisanuncios0">Mis anuncios</string>
+    <string name="pub_varstrlistadomisanuncios1">Título: </string>
+    <string name="pub_varstrlistadomisanuncios2">Publicado el: </string>
+    <string name="pub_varstrlistadomisanuncios3">Días de duración: </string>
+    <string name="pub_varstrlistadomisanuncios4">Nro. vistas: </string>
+    <string name="pub_varstrlistadomisanuncios5">Tasa de conversión: </string>
+    <!-- pub_detalleanuncio -->
+    <string name="pub_varstrdetalleanuncio1">Descripción:</string>
+    <string name="pub_varstrdetalleanuncio2">Fecha de publicación:</string>
+    <string name="pub_varstrdetalleanuncio3">Monto pagado:</string>
+    <string name="pub_varstrdetalleanuncio4">Volver a Lista</string>
+    <!-- pub_anunciopagado -->
+    <string name="pub_varstranunciopagado1">Se ha generado el código:</string>
+    <string name="pub_varstranunciopagado2">Lo puedes pagar en cualquier agente</string>
+    <!-- pub_codigopago -->
+    <string name="pub_varstrcodigopago1">Volver:</string>
+    <!-- pub_modalpagaranuncio -->
+    <string name="pub_varstrmodalpagaranuncio1">¿Seguro que desea publicar anuncio?</string>
+    <string name="pub_varstrmodalpagaranuncio2">Aceptar</string>
+    <string name="pub_varstrmodalpagaranuncio3">Cancelar</string>
+    <!-- pub_modalcancelaranuncio -->
+    <string name="pub_varstrmodalcancelaranuncio1">¿Seguro que desea cancelar anuncio?</string>
+    <string name="pub_varstrmodalcancelaranuncio2">Aceptar</string>
+    <string name="pub_varstrmodalcancelaranuncio3">Cancelar</string>
 
     <!--        Modulo Registro tienda(rt)         -->
 
@@ -34,20 +139,239 @@
 
     <!--        Modulo Ordenes(mio)                -->
 
+    <!-- mio_misordenesprincipal -->
 
+    <string name="mio_varstrmisordenesprincipal1">Buscar id de orden</string>
+    <string name="mio_varstrmisordenesprincipal2">Filtrar por estado</string>
+    <string name="mio_varstrmisordenesprincipal9">Filtrar por fecha</string>
+    <string name="mio_varstrmisordenesprincipal3">ID ORDEN:</string>
+    <string name="mio_varstrmisordenesprincipal4">Nombre completo del cliente:</string>
+    <string name="mio_varstrmisordenesprincipal5">Órden creada el:</string>
+    <string name="mio_varstrmisordenesprincipal6">Órden entregada el:</string>
+    <string name="mio_varstrmisordenesprincipal7">Detalle</string>
+    <string name="mio_varstrmisordenesprincipal8">Chat</string>
+
+    <string-array name="Filtro_ordenestado">
+        <item> Mas antiguo</item>
+        <item> Mas Reciente</item>
+        <item> Creado</item>
+        <item> Preparado</item>
+        <item> En reparto</item>
+        <item> Entregado</item>
+    </string-array>
+
+    <string-array name="Filtro_ordenfecha">
+        <item> Fecha inicio</item>
+        <item>Fecha fin</item>
+    </string-array>
+
+    <!-- mio_detallepedido -->
+    <string name="mio_varstrdetallepedido1">Nombre completo del cliente</string>
+    <string name="mio_varstrdetallepedido2">Detalle</string>
+    <string name="mio_varstrdetallepedido3">Chat</string>
+    <string name="mio_varstrdetallepedido4">Estado de pedido</string>
+    <string name="mio_varstrdetallepedido5">Solicitada</string>
+    <string name="mio_varstrdetallepedido6">Acepta/Rechazado</string>
+    <string name="mio_varstrdetallepedido7">En Preparación</string>
+    <string name="mio_varstrdetallepedido8">En Camino</string>
+    <string name="mio_varstrdetallepedido9">Entregado</string>
+    <string name="mio_varstrdetallepedido10">Reclamado</string>
+    <string name="mio_varstrdetallepedido11">Dirección de entrega</string>
+    <string name="mio_varstrdetallepedido12">dirección</string>
+    <string name="mio_varstrdetallepedido13">Productos</string>
+    <string-array name="repartidores">
+        <item>Paolo</item>
+        <item>Adrián</item>
+    </string-array>
+
+    <!-- mio_detalleproducto -->
+    <string name="mio_varstrdetalleproducto1">Detalle pedidos N:</string>
+    <string name="mio_varstrdetalleproducto2">Productos:</string>
+    <string name="mio_varstrdetalleproducto3">Agua mineral San Carlos con gas 500ml</string>
+    <string name="mio_varstrdetalleproducto4">s/1.5 x un</string>
+    <string name="mio_varstrdetalleproducto5">1 un s/1.5</string>
+    <string name="mio_varstrdetalleproducto6">Cancelar Orden</string>
+    <string name="mio_varstrdetalleproducto7">Enviar</string>
+    <string name="mio_varstrdetalleproducto8">Agua mineral San Carlos sin gas 500ml</string>
+
+    <!-- mio_chatcliente-->
+    <string name="mio_varstrchatcliente1">Nombre completo del cliente</string>
+    <string name="mio_varstrchatcliente2">Detalle</string>
+    <string name="mio_varstrchatcliente3">Chat</string>
+    <string name="mio_varstrchatcliente4">Nombre del cliente</string>
+    <string name="mio_varstrchatcliente5">Escribir mensaje</string>
+    <string name="mio_varstrchatcliente6">Enviar</string>
+
+
+    <!-- mio_mensajeconfirmación -->
+    <string name="mio_varstrmensajeconformacion1">El envío de los productos se hizo correctamente</string>
+    <string name="mio_varstrmensajeconformacion2">Eso fué rápido</string>
+    <string name="mio_varstrmensajeconformacion3">Volver inicio</string>
+
+    <!-- mio_cancelarorden -->
+    <string name="mio_varstrcancelarorden1">¿Seguro que desea cancelar la orden?</string>
+    <string name="mio_varstrcancelarorden2">Aceptar</string>
+    <string name="mio_varstrcancelarorden3">Cancelar</string>
+
+    <!-- mio_enviarorden -->
+    <string name="mio_varstrenviarorden1">¿Seguro que desea enviar los productos al cliente?</string>
+    <string name="mio_varstrenviarorden2">Aceptar</string>
+    <string name="mio_varstrenviarorden3">Cancelar</string>
 
     <!--        Modulo Almacen(ga)                 -->
 
 
-
     <!--        Modulo Soporte(so)                 -->
+
+    <string name="menu_soporte_item_1">Centro de Ayuda</string>
+    <string name="menu_soporte_item_2">Notificaciones</string>
+    <string name="menu_soporte_item_3">Terminos y Condiciones</string>
+    <string name="menu_soporte_item_4">Compartir Encargalo</string>
+    <string name="menu_soporte_item_5">Acerca de</string>
+    <string name="menu_soporte_item_6">Cerrar sesion</string>
+
+
+    <!--  SO_02_1  -->
+    <string name="menu_soporte_centro_de_ayuda">Centro de ayuda</string>
+    <string name="menu_soporte_centro_de_ayuda_btn_1">Preguntas Frecuentes</string>
+    <string name="menu_soporte_centro_de_ayuda_btn_2">Videos Demostrativos</string>
+    <string name="menu_soporte_centro_de_ayuda_btn_3">Realizar una Consulta</string>
+    <!--  SO_02_2  -->
+    <string name="menu_soporte_Preguntas_Frecuentes">Preguntas Frecuentes</string>
+    <string name="menu_soporte_Preguntas_Frecuentes_preg1">Pregunta 1</string>
+    <string name="menu_soporte_Preguntas_Frecuentes_preg2">Pregunta 2</string>
+    <string name="menu_soporte_Preguntas_Frecuentes_preg3">Pregunta 3</string>
+
+    <!--  SO_02_3  -->
+
+    <string name="menu_soporte_Preguntas_Frecuentes_preg1_titulo">Crea tu tienda Virtual</string>
+    <string name="menu_soporte_Preguntas_Frecuentes_preg1_stitulo">Aprende los primeros pasos</string>
+    <string name="menu_soporte_Preguntas_Frecuentes_preg1_detalle">
+        titulo:
+
+        Publicado el:
+
+        Tiempo de duración:
+    </string>
+    <!--  SO_03  -->
+
+    <string name="menu_soporte_notificaciones">Notificaciones</string>
+    <string name="menu_soporte_notificaciones_texto">Activa las notificaciones para mantener al tanto de tu actividad</string>
+    <string name="menu_soporte_notificaciones_switch_1">Mensajes</string>
+    <string name="menu_soporte_notificaciones_switch_2">Pedidos</string>
+    <string name="menu_soporte_notificaciones_switch_3">Actividad de cuenta</string>
+    <string name="menu_soporte_notificaciones_switch_4">Actualizaciones</string>
+    <!--  SO_04  -->
+    <string name="menu_soporte_terminos_condiciones_terminos">Terminos y condiciones de Uso</string>
+    <string name="menu_soporte_terminos_condiciones_politicas">Política de privacidad y datos personales</string>
+    <string name="menu_soporte_terminos_condiciones_lista_negra">Lista de productos prohibidos a la venta</string>
+    <!--  SO_05  -->
+    <string name="menu_soporte_acerca_de">Acerca de</string>
+    <string name="menu_soporte_acerca_de_btn_1">Website</string>
+    <string name="menu_soporte_acerca_de_btn_2">Facebook</string>
+    <string name="menu_soporte_acerca_de_btn_3">Instagram</string>
+    <string name="menu_soporte_acerca_de_btn_4">Cerrar</string>
+    <!--  SO_06  -->
+    <string name="menu_soporte_compartir_website">Website</string>
+    <string name="menu_soporte_compartir_facebook">Facebook</string>
+    <string name="menu_soporte_compartir_instagram">Instagram</string>
+
 
 
 
     <!--        Modulo Tienda(mit)                 -->
 
+    <string name="str_btn_crearpuntoventa">Crear punto de venta</string>
+    <string name="str_BienvenidoEncargalo">Bienvenido a Encargalo</string>
 
+    <!-- cambiar simbolo con pesos mexicanos-->
+    <string name="str_txt_simboloprecio">S/</string>
 
+    <!--MODULO REGISTRO TIENDA -->
+    <!-- rt_frginicioesc2-->
+    <string name="rt_varstrinicioesc21">Mis tiendas</string>
+    <!-- rt_frginicioesc3-->
+    <string name="rt_varstrinicioesc31">Bienvenido</string>
+    <string name="rt_varstrinicioesc32">a Encargalo</string>
+
+    <!-- rt_frgcategoriatienda-->
+    <string name="rt_varstrcategoriatienda1">¿Cuál de estos negocios te\ndescribe mejor?</string>
+    <string name="rt_varstrcategoriatienda2">
+
+      <big>Super\n</big>
+        <small>Abarrotes,panaderías, carnicerías y tiendas especializadas</small>
+    </string>
+    <!-- rt_frgcrearpuntoventa-->
+    <string name="rt_varstrcrearpuntoventa1">Datos de tu tienda</string>
+    <string name="rt_varstrcrearpuntoventa2">Nombre de tu marca</string>
+    <string name="rt_varstrcrearpuntoventa3">¿Cuánto vende al mes?</string>
+    <string name="rt_varstrcrearpuntoventa4">Correo</string>
+    <string name="rt_varstrcrearpuntoventa5">Nro. Celular</string>
+    <string name="rt_varstrcrearpuntoventa6">Inventario estimado</string>
+    <string name="rt_varstrcrearpuntoventa7">añadir ubicación</string>
+    <string name="rt_varstrcrearpuntoventa8">Cambiar ubicación</string>
+    <string name="rt_varstrcrearpuntoventa9">Ubicación seleccionada:</string>
+    <!--rt_frgubicacion -->
+    <string name="rt_varstrubicacion1">Dirección</string>
+    <string name="rt_varstrubicacion2">Agregar ubicación</string>
+    <!--rt_frgdatostienda -->
+    <string name="rt_varstrdatostienda1">PERFIL BASICO (información visible al público)</string>
+    <string name="rt_varstrdatostienda2">Tienda de abarrotes</string>
+    <string name="rt_varstrdatostienda3">INFORMACION PRIVADA</string>
+    <!--rt_frgpuntoventacreado-->
+    <string name="rt_varstrpuntodeventacreado">Tu punto de venta ha \nsido creado \nexitosamente</string>
+    <string name="rt_varstrproductoagregado">Tu producto se \nañadió exitosamente</string>
+
+    <!-- MODULO MI TIENDA -->
+    <!-- mit_frgmenutienda -->
+    <string name="mit_varstrmenutienda1">  Proveedor</string>
+    <string name="mit_varstrmenutienda2">  Ingreso Stock</string>
+    <string name="mit_varstrmenutienda3">  Editar datos</string>
+    <string name="mit_varstrmenutienda4">  Cambiar Tienda</string>
+    <string name="mit_varstrmenutienda5">  Agregar Tienda</string>
+    <!-- mit_frgmenuproductos -->
+    <string name="mit_varstrmenuproductos1">  Registrar producto</string>
+    <string name="mit_varstrmenuproductos2">  Reporte de productos</string>
+    <!-- mit_frgregistrarproducto--> <!-- mit_frgdetalleproducto -->
+    <string name="mit_varstrregistrarproducto1">Buscar Producto</string>
+    <string name="mit_varstrregistrarproducto2">Nombre del producto</string>
+    <string name="mit_varstrregistrarproducto3">Máximo de 3 fotos; Recuerda que la imagen debe pesar menos de 5MB</string>
+    <string name="mit_varstrregistrarproducto4">Recuerda que la imagen debe pesar menos de 5MB</string>
+    <string name="mit_varstrregistrarproducto5">Información general</string>
+    <string name="mit_varstrregistrarproducto6">Descripción</string>
+    <string name="mit_varstrregistrarproducto7">Categoria</string>
+    <string name="mit_varstrregistrarproducto8">*Costo de producto</string>
+    <string name="mit_varstrregistrarproducto9">*Precio de venta</string>
+    <string name="mit_varstrregistrarproducto10">Agregar producto</string>
+    <!-- mit_frgreporteproductos -->
+    <string name="mit_varstrreporteproductos1">Filtro por:</string>
+    <string name="mit_varstrreporteproductos2">Codigo:</string>
+    <string name="mit_varstrreporteproductos3">Stock actual:</string>
+    <string name="mit_varstrreporteproductos4">Descripctión:</string>
+    <string name="mit_varstrreporteproductos5">Exportar</string>
+    <!-- mit_frgdetalleproducto -->
+    <string name="mit_varstrdetalleproducto1">Información general</string>
+    <string name="mit_varstrdetalleproducto2">Codigo</string>
+    <string name="mit_varstrdetalleproducto3">Stock</string>
+    <string name="mit_varstrdetalleproducto4">*Descripción</string>
+    <string name="mit_varstrdetalleproducto5">*Seleccione categoria</string>
+    <string name="mit_varstrdetalleproducto6">*Costo de producto</string>
+    <string name="mit_varstrdetalleproducto7">*Precio de venta</string>
+    <string name="mit_varstrdetalleproducto8">Modificar</string>
+    <string name="mit_varstrdetalleproducto9">Eliminar</string>
+    <!-- mit_frgproductoagregado -->
+    <string name="mit_varstrproducctoañadido">El producto se añadio exitosamente</string>
+
+    <!-- Alertdialog-->
+    <string name="mit_varstralertdialog1">¿Está seguro de añadir su ubiación?</string>
+    <string name="mit_varstralertdialog2">Aceptar</string>
+    <string name="mit_varstralertdialog3">Cancelar</string>
+    <string-array name="your_string_array">
+        <item>Seleccione Ciudad</item>
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
